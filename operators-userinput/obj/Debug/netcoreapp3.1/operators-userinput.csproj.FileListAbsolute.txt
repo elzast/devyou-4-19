@@ -1,0 +1,12 @@
+/Users/Eli/Projects/operators-userinput/operators-userinput/bin/Debug/netcoreapp3.1/operators-userinput.deps.json
+/Users/Eli/Projects/operators-userinput/operators-userinput/bin/Debug/netcoreapp3.1/operators-userinput.runtimeconfig.json
+/Users/Eli/Projects/operators-userinput/operators-userinput/bin/Debug/netcoreapp3.1/operators-userinput.runtimeconfig.dev.json
+/Users/Eli/Projects/operators-userinput/operators-userinput/bin/Debug/netcoreapp3.1/operators-userinput.dll
+/Users/Eli/Projects/operators-userinput/operators-userinput/bin/Debug/netcoreapp3.1/operators-userinput.pdb
+/Users/Eli/Projects/operators-userinput/operators-userinput/obj/Debug/netcoreapp3.1/operators-userinput.csprojAssemblyReference.cache
+/Users/Eli/Projects/operators-userinput/operators-userinput/obj/Debug/netcoreapp3.1/operators-userinput.AssemblyInfoInputs.cache
+/Users/Eli/Projects/operators-userinput/operators-userinput/obj/Debug/netcoreapp3.1/operators-userinput.AssemblyInfo.cs
+/Users/Eli/Projects/operators-userinput/operators-userinput/obj/Debug/netcoreapp3.1/operators-userinput.csproj.CoreCompileInputs.cache
+/Users/Eli/Projects/operators-userinput/operators-userinput/obj/Debug/netcoreapp3.1/operators-userinput.dll
+/Users/Eli/Projects/operators-userinput/operators-userinput/obj/Debug/netcoreapp3.1/operators-userinput.pdb
+/Users/Eli/Projects/operators-userinput/operators-userinput/obj/Debug/netcoreapp3.1/operators-userinput.genruntimeconfig.cache
