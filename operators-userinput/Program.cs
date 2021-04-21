@@ -23,7 +23,7 @@ namespace operators_userinput
             Console.WriteLine($"Hello {firstName} {lastName}!");
 
 
-            Console.WriteLine("Press ENTER to Exit");
+            Console.WriteLine("Press ENTER to Continue");
             Console.ReadLine();
 
             //Prompting user for input
@@ -39,13 +39,13 @@ namespace operators_userinput
             //int age = Int32.Parse(Console.ReadLine());
 
 
-            Console.WriteLine("Press ENTER to Exit");
+            Console.WriteLine("Press ENTER to Continue");
             Console.ReadLine();
 
 
             //Prompt the user for their weight and store their response in a double variable
             Console.WriteLine("What is your weight?");
-            int weight = (int)double.Parse(Console.ReadLine());
+            double weight = double.Parse(Console.ReadLine());
 
 
             //Prompt the user for their middle initial and store their response in a character variable
@@ -54,10 +54,10 @@ namespace operators_userinput
 
             //Prompt the user to enter true of they have watched Harry Potter or false if they have not and store their reply in a boolean variable
             Console.WriteLine("True or False: You watched Harry Potter?");
-            bool harryPotter = Convert.ToBoolean(Console.ReadLine());
+            bool hasSeenHarryPotter = Convert.ToBoolean(Console.ReadLine());
 
             //Print all these values to the Console
-            Console.WriteLine($"Your weight is {weight} and your middle initial is {middleInitial}. It is {harryPotter} that you have seen Harry Potter.");
+            Console.WriteLine($"Your weight is {weight} and your middle initial is {middleInitial}. It is {hasSeenHarryPotter} that you have seen Harry Potter.");
 
             //Declare two integer variables
             int int1 = 45;
@@ -80,8 +80,32 @@ namespace operators_userinput
             int remainder = int1 % int2;
             Console.WriteLine($"This is the remainder of two delcared intergers: {remainder}");
 
+            Console.WriteLine("Press ENTER to Continue");
+            Console.ReadLine();
+
+            //Console Calculator Application
+            //Takes user input and assigns it to variables of type double
+            Console.WriteLine("What is your first variable?");
+            double userVar1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("What is your second variable?");
+            double userVar2 = double.Parse(Console.ReadLine());
+            //Perform addition using the two variables(sum)
+            double userSum = userVar1 + userVar2;
+            Console.WriteLine($"{userSum} is the sum of your variables");
+            //Perform subtraction using the two variables(difference)
+            double userDifference = userVar1 - userVar2;
+            Console.WriteLine($"{userDifference} is the difference of your variables");
+            //Perform multiplication using the two variables(product)
+            double userProduct = userVar1 * userVar2;
+            Console.WriteLine($"{userProduct} is the product of your variables");
+            //Perform division using the two variables(quotient)
+            double userQuotient = userVar1 / userVar2;
+            Console.WriteLine($"{userQuotient} is the quotient of your variables");
+
             Console.WriteLine("Press ENTER to Exit");
             Console.ReadLine();
+
+
         }
     }
 }
