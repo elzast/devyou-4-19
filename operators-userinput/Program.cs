@@ -59,6 +59,29 @@ namespace operators_userinput
             //Print all these values to the Console
             Console.WriteLine($"Your weight is {weight} and your middle initial is {middleInitial}. It is {harryPotter} that you have seen Harry Potter.");
 
+            //Declare two integer variables
+            int int1 = 45;
+            int int2 = 26;
+            Console.WriteLine($"This is the first declared interger: {int1} This is the second delcared interger: {int2}");
+            //Find the sum of those two variables(+)
+            int sum = int1 + int2;
+            Console.WriteLine($"This is the sum of two declared intergers: {sum}");
+            //Find the difference of those two variables(-)
+            int difference = int1 - int2;
+            Console.WriteLine($"This is the difference of two declared intergers: {difference}");
+            //Find the product of those two variables(*)
+            int product = int1 * int2;
+            Console.WriteLine($"This is the product of two declared intergers: {product}");
+
+            //Find the quotient of those two variables(/)
+            int quotient = int1 / int2;
+            Console.WriteLine($"This is the quotient of two declared intergers: {quotient}");
+            //Find the remainder of those two variables(%)
+            int remainder = int1 % int2;
+            Console.WriteLine($"This is the remainder of two delcared intergers: {remainder}");
+
+            Console.WriteLine("Press ENTER to Exit");
+            Console.ReadLine();
         }
     }
 }
